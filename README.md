@@ -35,7 +35,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Flink---API-REST-
+  cd API_REST_Flink
 ```
 
 Install Docker
