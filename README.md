@@ -10,14 +10,6 @@ A rest api that shows a form with the following data and generates the crud with
 **Server:** Python, Django, Docker
 
   
-## Installation
-
-In this project, docker installation is required to start the service since it is completely configured in docker
-
-```bash
-  cd Flink---API-REST-
-  docker-compose up --build  --remove-orphans
-```
   
 ## Demo
 
