@@ -7,7 +7,11 @@ A rest api that shows a form with the following data and generates the crud with
 
 ## Tech Stack
 
-**Server:** Python, Django, Docker
+**Server:** Python, Django, Docker, Nginx
+
+## Warning
+
+It is necessary not to have port 80, 8080, 5050, 5432 in use
 
   
   
