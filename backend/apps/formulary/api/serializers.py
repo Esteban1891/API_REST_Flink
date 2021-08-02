@@ -47,6 +47,6 @@ class FormularySerializer(serializers.ModelSerializer):
 
         if not symbol.isupper():
             raise serializers.ValidationError(
-                'Only capital letters are allowed')
+                'Only capital letters are allowed for the symbol')
 
         return attrs
