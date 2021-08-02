@@ -60,7 +60,7 @@ After installing we run the application in python / django to lift the applicati
 2. docker-compose run backend python backend/manage.py makemigrations
 
 3. docker-compose run backend python backend/manage.py migrate
-´´´
+```
   
 ## Documentation
 
