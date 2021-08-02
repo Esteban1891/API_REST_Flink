@@ -50,6 +50,17 @@ Start the server
 docker-compose up --build  --remove-orphans
 ```
 
+
+After installing we run the application in python / django to lift the application
+
+- Be sure to open another terminal in the working directory and run these commands one by one
+```bash
+1. docker-compose run backend python backend/manage.py collectstatic
+
+2. docker-compose run backend python backend/manage.py makemigrations
+
+3. docker-compose run backend python backend/manage.py migrate
+´´´
   
 ## Documentation
 
