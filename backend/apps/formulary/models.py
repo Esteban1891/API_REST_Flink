@@ -27,5 +27,8 @@ class Formulary(models.Model):
     symbol = models.CharField(max_length = 10)
     market_values = ArrayField(models.IntegerField(), size=50)
 
+    def get_symbol(self):
+        return self.name_company + ' Has as symbol ' + self.symbol
+
     def __str__(self):
         return self.name_company
