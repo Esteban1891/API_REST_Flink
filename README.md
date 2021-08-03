@@ -58,9 +58,19 @@ After installing we run the application in python / django to lift the applicati
 3. docker-compose run backend python backend/manage.py migrate
 ```
   
-## Documentation
+# Test
+open other terminal and write next
+```
+❯ docker exec -it  prueba-tecnica-flink_backend_1 bash 
+❯ cd backend
+❯ python manage.py test
 
-[Documentation-API](https://linktodocumentation)
+show> ...
+----------------------------------------------------------------------
+Ran 3 tests in 0.140s
+
+OK
+```
 
   
 ## API Reference
