@@ -17,7 +17,15 @@ It is necessary not to have port **80**, **8080**, **5050**, **5432** in use
   
 ## Demo
 
-Insert gif or link to demo
+link to demo
+> swagger http://143.198.58.196/
+> admin http://143.198.58.196:5050/
+- credential admin database
+
+´´´
+> root@admin.com
+> root
+´´´
 
   
 ## Screenshots
