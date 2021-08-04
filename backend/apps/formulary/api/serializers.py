@@ -33,17 +33,7 @@ class FormularySerializer(serializers.ModelSerializer):
         ]
 
     def validate(self, attrs):
-        name_company = attrs.get('name_company', '')
-        description_company = attrs.get('description_company', '')
         symbol = attrs.get('symbol', '')
-
-        if not name_company.isalpha():
-            raise serializers.ValidationError(
-                'Only letters are allowed for the name company')
-
-        if not description_company.isalpha():
-            raise serializers.ValidationError(
-                'Only letters are allowed for the description company')
 
         if not symbol.isupper():
             raise serializers.ValidationError(
