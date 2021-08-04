@@ -22,10 +22,10 @@ link to demo
 > admin http://143.198.58.196:5050/
 - credential admin database
 
-´´´
+
 > root@admin.com
 > root
-´´´
+
 
   
 ## Screenshots
